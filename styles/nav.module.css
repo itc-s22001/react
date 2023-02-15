@@ -7,6 +7,9 @@
         display: flex;
         gap: 2em;
     }
+    .list a:active {
+        color: var(--accent);
+    }
 }
 /* モバイル */
 @media (max-width: 767px) {
@@ -88,7 +91,4 @@
     .list a {
         -webkit-tap-highlight-color: transparent;
 }
-.list a:active {
-    color: var(--accent);
-    }
 }
